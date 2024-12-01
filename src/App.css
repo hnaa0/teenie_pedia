@@ -8,6 +8,11 @@
   src: url("./fonts/Cafe24SsurroundAir-v1.1.ttf");
 }
 
+@font-face {
+  font-family: "MangoByeolbyeol";
+  src: url("./fonts/MangoByeolbyeol.ttf");
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
