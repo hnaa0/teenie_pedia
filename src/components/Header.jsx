@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Header() {
+  const $html = document.querySelector("html");
+
   const themeChange = (event) => {
     if (event.target.checked) {
       setThemeLight();
@@ -9,11 +12,28 @@ export default function Header() {
     }
   };
 
-  const setThemeLight = () => {};
-  const setThemeDark = () => {};
+  const setThemeLight = () => {
+    $html?.classList.remove("dark");
+    $html.setAttribute("data-theme", "light");
+    localStorage.setItem("theme", "light");
+  };
+  const setThemeDark = () => {
+    $html?.classList.add("dark");
+    $html.setAttribute("data-theme", "dark");
+    localStorage.setItem("theme", "dark");
+  };
+
+  useEffect(() => {
+    if (localStorage.getItem("theme") === "light") {
+      setThemeLight();
+      document.querySelector(".js-theme")?.setAttribute("checked", "checked");
+    } else {
+      setThemeDark();
+    }
+  }, []);
 
   return (
-    <nav className="navbar bg-base-100">
+    <nav className="navbar dark:bg-zinc-800 lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="flex-1">
         <Link to="/">
           <h1 className="btn btn-ghost text-xl">abcd</h1>
@@ -28,7 +48,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-8 fill-red-400 stroke-red-400"
+              className="size-7 md:size-8 fill-red-400 stroke-red-400"
             >
               <path
                 strokeLinecap="round"
@@ -40,14 +60,14 @@ export default function Header() {
         </div>
         <div className="flex w-12 h-12 items-center justify-center">
           <label className="swap swap-rotate items-center">
-            <input type="checkbox" onClick={themeChange} />
+            <input className="js-theme" type="checkbox" onClick={themeChange} />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-8 swap-on"
+              className="size-7 md:size-8 swap-on"
             >
               <path
                 strokeLinecap="round"
@@ -61,7 +81,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-8 swap-off stroke-white"
+              className="size-7 md:size-8 swap-off stroke-white"
             >
               <path
                 strokeLinecap="round"

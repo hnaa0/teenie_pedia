@@ -13,7 +13,7 @@ export default function LikeItems() {
 
 function Item() {
   return (
-    <div className="card card-compact shadow-lg transition ease-in-out bg-pink-50">
+    <div className="card card-compact shadow-lg transition ease-in-out bg-pink-50 dark:bg-pink-100">
       <div className="card-actions relative items-center justify-between my-1">
         <h2
           className={`absolute left-1/2 -translate-x-1/2 text-zinc-800 text-lg lg:text-xl font-["Ssurround"]`}

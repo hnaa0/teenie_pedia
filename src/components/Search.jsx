@@ -15,9 +15,9 @@ export default function Search() {
 
   return (
     <>
-      <div className="my-16 mx-5">
+      <div className="mt-14 mb-10 md:my-16 mx-5">
         <input
-          className="py-5 px-7 text-md rounded-full border border-fuchsia-200 focus:border-fuchsia-300 focus:outline-0 bg-fuchsia-50 w-full md:w-124 lg:w-124"
+          className="py-4 md:py-5 px-5 md:px-7 text-sm md:text-base text-zinc-800 rounded-full border border-fuchsia-200 focus:border-fuchsia-300 focus:outline-0 bg-fuchsia-50 w-full md:w-124 lg:w-124"
           type="text"
         />
       </div>
@@ -27,7 +27,7 @@ export default function Search() {
             <button
               key={name}
               onClick={() => toggleFilter(name)}
-              className={`transition 0.2s ease-in-out shadow-md py-4 rounded-full font-["Ssurround"] text-lg ${
+              className={`transition 0.2s ease-in-out shadow-md py-3 md:py-4 rounded-full font-["Ssurround"] text-sm md:text-lg ${
                 filter.includes(name) ? "bg-purple-100" : "bg-zinc-50"
               } ${filter.includes(name) ? "text-zinc-700" : "text-zinc-400"}`}
             >

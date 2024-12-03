@@ -2,9 +2,9 @@ import LikeItems from "../components/LikeItems";
 
 export default function Likes() {
   return (
-    <div className="pb-40">
+    <div className="pb-40 lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="relative w-full h-40 md:h-52">
-        <div className="absolute left-1/2 -translate-x-1/2 bottom-3 md:bottom-4 -rotate-6 bg-rose-200 w-28 h-14 md:w-32 md:h-16 rounded-[50%]"></div>
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-3 md:bottom-4 -rotate-6 transition ease-in-out bg-rose-200 dark:bg-rose-300 w-28 h-14 md:w-32 md:h-16 rounded-[50%]"></div>
         <h1
           className={`absolute left-1/2 -translate-x-1/2 bottom-6 md:bottom-7 text-2xl md:text-3xl font-["MangoByeolbyeol"] text-white`}
         >
@@ -27,7 +27,9 @@ export default function Likes() {
           </svg>
         </div>
       </div>
-      <LikeItems />
+      <div className="flex justify-center">
+        <LikeItems />
+      </div>
     </div>
   );
 }
