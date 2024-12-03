@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
+import ScrollToTop from "./components/ScrollToTop";
 import AppRouter from "./AppRouter";
 import { useDispatch } from "react-redux";
 import itemSlice from "./store/itemSlice";
@@ -30,6 +31,7 @@ function App() {
       <Header />
       <div style={{ minHeight: `calc(100vh - 64px)` }}>
         <AppRouter />
+        <ScrollToTop />
       </div>
     </div>
   );
