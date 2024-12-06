@@ -1,4 +1,8 @@
+import { useSelector } from "react-redux";
+
 export default function DetailCard({ data }) {
+  const likes = useSelector((state) => state.likeStore.items);
+
   return (
     data && (
       <div>
@@ -130,7 +134,9 @@ export default function DetailCard({ data }) {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-8 lg:size-10 stroke-red-400"
+                  className={`size-8 lg:size-10 stroke-red-400 ${
+                    likes.includes(data.id) ? "fill-red-400" : ""
+                  }`}
                 >
                   <path
                     strokeLinecap="round"

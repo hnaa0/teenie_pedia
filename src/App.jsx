@@ -1,13 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import AppRouter from "./AppRouter";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import itemSlice from "./store/itemSlice";
 
 function App() {
   const dispatch = useDispatch();
+  const likes = useSelector((state) => state.likeStore.items);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,6 +26,14 @@ function App() {
 
     fetchData();
   }, [dispatch]);
+
+  const setLikes = () => {
+    localStorage.setItem("LIKES", JSON.stringify(likes));
+  };
+
+  useEffect(() => {
+    setLikes();
+  }, [likes]);
 
   return (
     <div className="dark:bg-zinc-800">

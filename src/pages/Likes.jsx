@@ -1,6 +1,17 @@
+import { useDispatch, useSelector } from "react-redux";
 import LikeItems from "../components/LikeItems";
+import likeSlice from "../store/likeSlice";
 
 export default function Likes() {
+  const dispatch = useDispatch();
+  const likes = useSelector((state) => state.likeStore.items);
+
+  const removeAllLikes = () => {
+    if (window.confirm("마음함을 모두 삭제하시겠습니까?")) {
+      dispatch(likeSlice.actions.resetLike());
+    }
+  };
+
   return (
     <div className="pb-40 lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="relative w-full h-40 md:h-52">
@@ -27,8 +38,49 @@ export default function Likes() {
           </svg>
         </div>
       </div>
-      <div className="flex justify-center">
-        <LikeItems />
+      <div>
+        {likes.length !== 0 ? (
+          <div className="flex flex-col">
+            <button
+              onClick={removeAllLikes}
+              className="mr-4 ml-auto rounded-full w-fit border border-solid border-fuchsia-300 dark:border-fuchsia-100 bg-fuchsia-50 dark:bg-inherit p-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="size-4 md:size-5 stroke-fuchsia-300 dark:stroke-fuchsia-100"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <LikeItems likesData={likes} />
+          </div>
+        ) : (
+          <div className="flex justify-center items-center mt-20 lg:mt-32 px-4 lg:px-8 text-zinc-600 dark:text-zinc-400 ">
+            마음함이 비어 있어요{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1}
+              stroke="currentColor"
+              className="size-6 ml-1 fill-yellow-200 dark:fill-yellow-300 dark:stroke-zinc-500"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+              />
+            </svg>
+          </div>
+        )}
       </div>
     </div>
   );
