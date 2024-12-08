@@ -36,7 +36,14 @@ export default function Header() {
     <nav className="navbar dark:bg-zinc-800 lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="flex-1">
         <Link to="/">
-          <h1 className="btn btn-ghost text-xl">abcd</h1>
+          <div className="flex relative w-32 btn btn-ghost">
+            <div className="left-2.5 top-1 w-5 h-5 bg-pink-100 dark:bg-pink-300 rounded-md rotate-12 border-blue-100 absolute"></div>
+            <h1
+              className={`top-1/2 -translate-y-1/2  absolute text-xl text-purple-200 dark:text-purple-100 font-["SSurround"]`}
+            >
+              TEENIE_P
+            </h1>
+          </div>
         </Link>
       </div>
       <div className="flex-none">
