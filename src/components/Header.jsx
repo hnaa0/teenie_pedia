@@ -33,13 +33,13 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="navbar dark:bg-zinc-800 lg:max-w-7xl lg:mx-auto lg:my-0">
+    <nav className="h-14 md:h-16 min-h-14 sticky z-10 top-0 navbar bg-white/[0.85] dark:bg-zinc-800/[0.85] lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="flex-1">
         <Link to="/">
           <div className="flex relative w-32 btn btn-ghost">
-            <div className="left-2.5 top-1 w-5 h-5 bg-pink-100 dark:bg-pink-300 rounded-md rotate-12 border-blue-100 absolute"></div>
+            <div className="left-4 md:left-2.5 top-2.5 md:top-1 w-4 md:w-5 h-4 md:h-5 bg-pink-100 dark:bg-pink-300 rounded-md rotate-12 border-blue-100 absolute"></div>
             <h1
-              className={`top-1/2 -translate-y-1/2  absolute text-xl text-purple-200 dark:text-purple-100 font-["SSurround"]`}
+              className={`top-1/2 -translate-y-1/2 absolute text-lg md:text-xl text-purple-200 dark:text-purple-100 font-["SSurround"]`}
             >
               TEENIE_P
             </h1>
@@ -48,14 +48,14 @@ export default function Header() {
       </div>
       <div className="flex-none">
         <Link to="/likes">
-          <div className="flex w-12 h-12 items-center justify-center hover:cursor-pointer mr-2">
+          <div className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center hover:cursor-pointer mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-7 md:size-8 fill-red-400 stroke-red-400"
+              className="size-6 md:size-8 fill-red-400 stroke-red-400"
             >
               <path
                 strokeLinecap="round"
@@ -65,7 +65,7 @@ export default function Header() {
             </svg>
           </div>
         </Link>
-        <div className="flex w-12 h-12 items-center justify-center">
+        <div className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center">
           <label className="swap swap-rotate items-center">
             <input className="js-theme" type="checkbox" onClick={themeChange} />
             <svg
@@ -74,7 +74,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-7 md:size-8 swap-on"
+              className="size-6 md:size-8 swap-on"
             >
               <path
                 strokeLinecap="round"
@@ -88,7 +88,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-7 md:size-8 swap-off stroke-white"
+              className="size-6 md:size-8 swap-off stroke-white"
             >
               <path
                 strokeLinecap="round"
