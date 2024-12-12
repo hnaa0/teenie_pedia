@@ -2,6 +2,10 @@ import Slider from "react-slick";
 import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import image1 from "../assets/carouselImages/teenie_1.png";
+import image2 from "../assets/carouselImages/teenie_2.png";
+import image3 from "../assets/carouselImages/teenie_3.png";
+import image4 from "../assets/carouselImages/teenie_4.png";
 
 export default function CarouselBox() {
   const sliderRef = useRef(null);
@@ -74,41 +78,18 @@ export default function CarouselBox() {
   };
 
   return (
-    <Slider {...settings} ref={sliderRef}>
+    <Slider {...settings} ref={sliderRef} className="min-h-">
       <div className="mb-1">
-        <img
-          className="w-full lg:h-144 object-cover"
-          src="https://images.pexels.com/photos/26537680/pexels-photo-26537680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
+        <img className="w-full lg:h-144 object-cover" src={image1} alt="" />
       </div>
       <div>
-        <img
-          className="w-full lg:h-144 object-cover"
-          src="https://images.pexels.com/photos/20267145/pexels-photo-20267145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
+        <img className="w-full lg:h-144 object-cover" src={image2} alt="" />
       </div>
       <div>
-        <img
-          className="w-full lg:h-144 object-cover"
-          src="https://images.pexels.com/photos/28588388/pexels-photo-28588388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
+        <img className="w-full lg:h-144 object-cover" src={image3} alt="" />
       </div>
       <div>
-        <img
-          className="w-full lg:h-144 object-cover"
-          src="https://images.pexels.com/photos/29207369/pexels-photo-29207369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          className="w-full lg:h-144 object-cover"
-          src="https://images.pexels.com/photos/23656764/pexels-photo-23656764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
+        <img className="w-full lg:h-144 object-cover" src={image4} alt="" />
       </div>
     </Slider>
   );
