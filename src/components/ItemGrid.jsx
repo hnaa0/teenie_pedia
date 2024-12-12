@@ -1,11 +1,34 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import likeSlice from "../store/likeSlice";
 
 export default function ItemGrid() {
   const dispatch = useDispatch();
   const allItems = useSelector((state) => state.itemStore.all);
   const likes = useSelector((state) => state.likeStore.items);
+  const [filter, setFilter] = useState([]);
+
+  const category = [
+    { number: 1, title: "캐치! 티니핑" },
+    { number: 2, title: "반짝반짝 캐치! 티니핑" },
+    { number: 3, title: "알쏭달쏭 캐치! 티니핑" },
+    { number: 4, title: "새콤달콤 캐치! 티니핑" },
+  ];
+
+  const filteredItems = allItems.filter(
+    (item) =>
+      filter.length === 0 ||
+      filter.some((category) => item.period.includes(category))
+  );
+
+  const toggleFilter = (value) => {
+    setFilter((prev) =>
+      prev.includes(value)
+        ? prev.filter((item) => item !== value)
+        : [...prev, value]
+    );
+  };
 
   const toggleLike = (id) => {
     if (likes.includes(id)) {
@@ -16,18 +39,37 @@ export default function ItemGrid() {
   };
 
   return (
-    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 mt-16 px-4 lg:px-6">
-      {allItems.map((item) => {
-        return (
-          <Item
-            key={item.id}
-            itemData={item}
-            toggleLike={toggleLike}
-            likes={likes}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div className="flex justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 w-[90%] sm:w-[80%]">
+          {category.map((item) => (
+            <button
+              key={`${item.number}_${item.title}`}
+              onClick={() => toggleFilter(item.number)}
+              className={`transition 0.2s ease-in-out shadow-md py-3 md:py-4 rounded-full font-["Ssurround"] text-sm md:text-lg ${
+                filter.includes(item.number) ? "bg-purple-100" : "bg-zinc-50"
+              } ${
+                filter.includes(item.number) ? "text-zinc-700" : "text-zinc-400"
+              }`}
+            >
+              {item.title}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 mt-16 px-4 lg:px-6">
+        {filteredItems.map((item) => {
+          return (
+            <Item
+              key={item.id}
+              itemData={item}
+              toggleLike={toggleLike}
+              likes={likes}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 }
 
@@ -49,14 +91,18 @@ function Item({ itemData, toggleLike, likes }) {
             <div className="flex-shrink-0 h-[28px] text-zinc-400 py-1 px-2 mr-3 bg-violet-100 rounded-full">
               아이템
             </div>
-            <div className="text-start text-zinc-600 py-1 line-clamp-1">
-              {itemData.item.map((element, index) => (
-                <span key={index}>
-                  {element}
-                  {index != itemData.item.length - 1 && ", "}
-                </span>
-              ))}
-            </div>
+            {itemData.item.length !== 0 ? (
+              <div className="text-start text-zinc-600 py-1 line-clamp-1">
+                {itemData.item.map((element, index) => (
+                  <span key={index}>
+                    {element}
+                    {index != itemData.item.length - 1 && ", "}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <span>없음</span>
+            )}
           </div>
           <div className="card-actions justify-end">
             <button
