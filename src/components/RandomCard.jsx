@@ -27,8 +27,13 @@ export default function RandomCard() {
   };
 
   const onDownloadBtnClick = () => {
+    const date = new Date();
+    const year = date.getFullYear();
+    const month = ("0" + (date.getMonth() + 1)).slice(-2);
+    const day = ("0" + date.getDate()).slice(-2);
+
     DomToImage.toBlob(cardRef.current, { filter: filter }).then((blob) => {
-      saveAs(blob, "random_draw_card.png");
+      saveAs(blob, `${year}${month}${day}_random_draw_card_${pickData.id}.png`);
     });
   };
 
