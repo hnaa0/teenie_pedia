@@ -1,12 +1,22 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import likeSlice from "../store/likeSlice";
 
 export default function DetailCard({ data }) {
   const likes = useSelector((state) => state.likeStore.items);
+  const dispatch = useDispatch();
+
+  const toggleLike = (id) => {
+    if (likes.includes(id)) {
+      dispatch(likeSlice.actions.removeLike(id));
+    } else {
+      dispatch(likeSlice.actions.addLike(id));
+    }
+  };
 
   return (
     data && (
       <div>
-        <article className="w-full lg:h-164 bg-gradient-to-b from-blue-50 dark:from-blue-100 to-pink-50 dark:to-pink-100 shadow-xl mt-8 p-8 lg:flex rounded-3xl">
+        <article className="w-full bg-gradient-to-b from-blue-50 dark:from-blue-100 to-pink-50 dark:to-pink-100 shadow-xl mt-8 p-8 lg:flex rounded-3xl">
           <figure className="mb-4 lg:mb-0 w-full h-full lg:w-[60%] bg-white">
             <img
               className="w-full h-full md:h-144 lg:h-full object-cover"
@@ -127,7 +137,14 @@ export default function DetailCard({ data }) {
               </div>
             </div>
             <div className="card-actions justify-end">
-              <button className="btn btn-ghost items-center">
+              <button
+                className="btn btn-ghost items-center"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  toggleLike(data.id);
+                }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
