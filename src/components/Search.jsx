@@ -33,7 +33,7 @@ export default function Search() {
             {searchResult.map((item, index) => (
               <div key={`searchResult_${index}`}>
                 <Link to={`/detail/${item.id}`}>
-                  <div className="py-3 px-5 text-sm text-zinc-700 hover:text-zinc-800">
+                  <div className="py-3 px-5 text-sm text-zinc-600 hover:text-zinc-800 hover:bg-black/[0.2]">
                     {item.name}
                   </div>
                 </Link>

@@ -8,7 +8,8 @@ export default function Detail() {
   const item = items.find((element) => element.id == id);
 
   return (
-    <div className="px-4 md:px-10 pt-12 lg:pt-20 lg:max-w-7xl lg:mx-auto lg:my-0">
+    <div className="pb-40 lg:max-w-7xl lg:mx-auto lg:my-0">
+      <div className="h-32 sm:h-40 md:h-52"></div>
       <DetailCard data={item} />
     </div>
   );
