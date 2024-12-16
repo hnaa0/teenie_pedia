@@ -78,18 +78,34 @@ export default function CarouselBox() {
   };
 
   return (
-    <Slider {...settings} ref={sliderRef} className="min-h-">
+    <Slider {...settings} ref={sliderRef} aria-label="이미지 슬라이드">
       <div className="mb-1">
-        <img className="w-full lg:h-144 object-cover" src={image1} alt="" />
+        <img
+          className="w-full lg:h-144 object-cover"
+          src={image1}
+          alt="시즌1 메인 이미지"
+        />
       </div>
       <div>
-        <img className="w-full lg:h-144 object-cover" src={image2} alt="" />
+        <img
+          className="w-full lg:h-144 object-cover"
+          src={image2}
+          alt="시즌2 메인 이미지"
+        />
       </div>
       <div>
-        <img className="w-full lg:h-144 object-cover" src={image3} alt="" />
+        <img
+          className="w-full lg:h-144 object-cover"
+          src={image3}
+          alt="시즌3 메인 이미지"
+        />
       </div>
       <div>
-        <img className="w-full lg:h-144 object-cover" src={image4} alt="" />
+        <img
+          className="w-full lg:h-144 object-cover"
+          src={image4}
+          alt="시즌4 메인 이미지"
+        />
       </div>
     </Slider>
   );

@@ -65,10 +65,7 @@ function Item({ itemData, removeLike }) {
             </button>
           </div>
           <figure>
-            <img
-              src="https://images.pexels.com/photos/2524121/pexels-photo-2524121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt=""
-            />
+            <img src={item.image[0]} alt={`${item.name} 이미지`} />
           </figure>
         </div>
       </Link>

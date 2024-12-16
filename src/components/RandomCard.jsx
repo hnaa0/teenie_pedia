@@ -89,7 +89,13 @@ export default function RandomCard() {
               <Link to={`/detail/${pickData.id}`}>
                 <div className="w-full mb-4 flex justify-center h-[90%]">
                   <img
-                    src="https://images.pexels.com/photos/2524121/pexels-photo-2524121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={
+                      pickData.image.length == 1
+                        ? pickData.image[0]
+                        : pickData.image[
+                            Math.floor(Math.random() * pickData.image.length)
+                          ]
+                    }
                     className="object-cover rounded-3xl w-full md:w-[95%] h-full"
                   />
                 </div>

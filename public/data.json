@@ -30,7 +30,13 @@
       "갑자기 깜짝 놀라게 하는 것",
       "생크림 딸기 케이크"
     ],
-    "dislike": ["신맛이 나는 모든 것"]
+    "dislike": ["신맛이 나는 모든 것"],
+    "image": [
+      "/teeniepingImages/heartsping-1.jpg",
+      "/teeniepingImages/heartsping-2.jpg",
+      "/teeniepingImages/heartsping-3.jpg",
+      "/teeniepingImages/heartsping-4.jpg"
+    ]
   },
   {
     "id": "dadaping",
@@ -48,7 +54,8 @@
       }
     ],
     "like": ["독서", "공부", "깔끔하게 정돈된 환경"],
-    "dislike": ["늦잠", "게으름", "더러운 환경"]
+    "dislike": ["늦잠", "게으름", "더러운 환경"],
+    "image": ["/teeniepingImages/dadaping.jpg"]
   },
   {
     "id": "gogoping",
@@ -66,7 +73,8 @@
       }
     ],
     "like": ["체력단련", "격투기 및 액션 영화 보기"],
-    "dislike": ["두려움", "도망치기", "포기하기"]
+    "dislike": ["두려움", "도망치기", "포기하기"],
+    "image": ["/teeniepingImages/gogoping.jpg"]
   },
   {
     "id": "chachaping",
@@ -84,7 +92,8 @@
       }
     ],
     "like": ["화초에 물주기", "꽃 향기 맡기", "격려하기"],
-    "dislike": ["꽃을 꺾거나 잔디를 밟는 행동", "부정적인 말과 행동"]
+    "dislike": ["꽃을 꺾거나 잔디를 밟는 행동", "부정적인 말과 행동"],
+    "image": ["/teeniepingImages/chachaping.jpg"]
   },
   {
     "id": "lalaping",
@@ -106,7 +115,8 @@
       }
     ],
     "like": ["노래와 춤", "신나는 놀이", "수다"],
-    "dislike": ["심각한 분위기", "지루한 것"]
+    "dislike": ["심각한 분위기", "지루한 것"],
+    "image": ["/teeniepingImages/lalaping.jpg"]
   },
   {
     "id": "happying",
@@ -126,7 +136,8 @@
       }
     ],
     "like": ["비눗방울 놀이", "낙서하기"],
-    "dislike": ["더 놀고 싶은데 자야 하는 것"]
+    "dislike": ["더 놀고 싶은데 자야 하는 것"],
+    "image": ["/teeniepingImages/happying.jpg"]
   },
   {
     "id": "kikiping",
@@ -140,7 +151,8 @@
       }
     ],
     "like": ["재미있는 것", "장난"],
-    "dislike": ["심심한 것", "지루한 것"]
+    "dislike": ["심심한 것", "지루한 것"],
+    "image": ["/teeniepingImages/kikiping.jpg"]
   },
   {
     "id": "charmping",
@@ -156,7 +168,8 @@
       }
     ],
     "like": ["솜사탕"],
-    "dislike": ["심각한 상황"]
+    "dislike": ["심각한 상황"],
+    "image": ["/teeniepingImages/charmping.jpg"]
   },
   {
     "id": "shyping",
@@ -172,7 +185,8 @@
       }
     ],
     "like": ["숨바꼭질"],
-    "dislike": ["주목받는 것"]
+    "dislike": ["주목받는 것"],
+    "image": ["/teeniepingImages/shyping.jpg"]
   },
   {
     "id": "dareping",
@@ -192,7 +206,8 @@
       }
     ],
     "like": ["대결", "경쟁", "승부"],
-    "dislike": ["느릿느릿하고 느긋한 것"]
+    "dislike": ["느릿느릿하고 느긋한 것"],
+    "image": ["/teeniepingImages/dareping.jpg"]
   },
   {
     "id": "blankping",
@@ -210,7 +225,8 @@
       }
     ],
     "like": ["여유", "느긋함"],
-    "dislike": ["정확한 규율과 규칙", "바로핑의 잔소리"]
+    "dislike": ["정확한 규율과 규칙", "바로핑의 잔소리"],
+    "image": ["/teeniepingImages/blankping.jpg"]
   },
   {
     "id": "dreamping",
@@ -228,7 +244,8 @@
       }
     ],
     "like": ["재미있고 엉뚱한 상상하기"],
-    "dislike": ["상상력을 제한하는 모든 것"]
+    "dislike": ["상상력을 제한하는 모든 것"],
+    "image": ["/teeniepingImages/dreamping.jpg"]
   },
   {
     "id": "weeping",
@@ -246,7 +263,8 @@
       }
     ],
     "like": ["다양한 맛의 눈물사탕", "비"],
-    "dislike": ["소란스러운 것"]
+    "dislike": ["소란스러운 것"],
+    "image": ["/teeniepingImages/weeping.jpg"]
   },
   {
     "id": "moseyping",
@@ -264,7 +282,8 @@
       }
     ],
     "like": ["낮잠", "주말", "빠른 자동차"],
-    "dislike": ["바로핑의 잔소리", "별 것 아닌데 말 시키는 것"]
+    "dislike": ["바로핑의 잔소리", "별 것 아닌데 말 시키는 것"],
+    "image": ["/teeniepingImages/moseyping.jpg"]
   },
   {
     "id": "mimicping",
@@ -280,7 +299,8 @@
       }
     ],
     "like": ["상대를 따라하며 약올리기", "가수 헤이쥬"],
-    "dislike": ["약 올렸는데 반응이 없을 때"]
+    "dislike": ["약 올렸는데 반응이 없을 때"],
+    "image": ["/teeniepingImages/mimicping.jpg"]
   },
   {
     "id": "narrping",
@@ -300,7 +320,8 @@
       }
     ],
     "like": ["뷰티", "아름다운 것"],
-    "dislike": ["자신이 보기에 아름답지 않은 것"]
+    "dislike": ["자신이 보기에 아름답지 않은 것"],
+    "image": ["/teeniepingImages/narrping.jpg"]
   },
   {
     "id": "spookping",
@@ -314,7 +335,8 @@
       }
     ],
     "like": ["할로윈 호박", "남들의 놀란 얼굴을 찍은 사진"],
-    "dislike": ["무시무시한 거미", "겁쟁이라는 것을 들키는 것"]
+    "dislike": ["무시무시한 거미", "겁쟁이라는 것을 들키는 것"],
+    "image": ["/teeniepingImages/spookping.jpg"]
   },
   {
     "id": "tutuping",
@@ -328,7 +350,8 @@
       }
     ],
     "like": ["화장하기", "꾸미기", "로미공주님"],
-    "dislike": ["로미공주님이 다른 티니핑을 자기보다 예뻐하는 것"]
+    "dislike": ["로미공주님이 다른 티니핑을 자기보다 예뻐하는 것"],
+    "image": ["/teeniepingImages/tutuping.jpg"]
   },
   {
     "id": "goodping",
@@ -350,7 +373,8 @@
       }
     ],
     "like": ["다른 사람 도와주기", "착한 아이"],
-    "dislike": ["도움을 필요로 하는 사람을 외면하는 것", "나쁜 아이"]
+    "dislike": ["도움을 필요로 하는 사람을 외면하는 것", "나쁜 아이"],
+    "image": ["/teeniepingImages/goodping.jpg"]
   },
   {
     "id": "tweetping",
@@ -366,7 +390,8 @@
       }
     ],
     "like": ["수다"],
-    "dislike": ["침묵", "도서관"]
+    "dislike": ["침묵", "도서관"],
+    "image": ["/teeniepingImages/tweetping.jpg"]
   },
   {
     "id": "allmineping",
@@ -386,7 +411,8 @@
       }
     ],
     "like": ["맛있는 것", "반짝이는 것"],
-    "dislike": ["칙칙한 것", "우울한 것", "검은색", "회색"]
+    "dislike": ["칙칙한 것", "우울한 것", "검은색", "회색"],
+    "image": ["/teeniepingImages/allmineping.jpg"]
   },
   {
     "id": "roarping",
@@ -404,7 +430,8 @@
       }
     ],
     "like": ["화나는 것"],
-    "dislike": ["화나는 게 화나!"]
+    "dislike": ["화나는 게 화나!"],
+    "image": ["/teeniepingImages/roarping.jpg"]
   },
   {
     "id": "nonoping",
@@ -424,7 +451,8 @@
       }
     ],
     "like": ["상대의 말에 반대하기", "브로콜리"],
-    "dislike": ["다수결"]
+    "dislike": ["다수결"],
+    "image": ["/teeniepingImages/nonoping.jpg"]
   },
   {
     "id": "luvping",
@@ -438,7 +466,8 @@
       }
     ],
     "like": ["하트모양", "빨간색"],
-    "dislike": ["불평하고 서로 싸우는 것", "사랑이 깨지는 것"]
+    "dislike": ["불평하고 서로 싸우는 것", "사랑이 깨지는 것"],
+    "image": ["/teeniepingImages/luvping.jpg"]
   },
   {
     "id": "coolping",
@@ -452,7 +481,8 @@
       }
     ],
     "like": ["차가운 것"],
-    "dislike": ["뜨거운 것", "더운 것"]
+    "dislike": ["뜨거운 것", "더운 것"],
+    "image": ["/teeniepingImages/coolping.jpg"]
   },
   {
     "id": "artping",
@@ -466,7 +496,8 @@
       }
     ],
     "like": ["아름다운 것"],
-    "dislike": ["아름답지 않은 것"]
+    "dislike": ["아름답지 않은 것"],
+    "image": ["/teeniepingImages/artping.jpg"]
   },
   {
     "id": "heavyping",
@@ -480,7 +511,8 @@
       }
     ],
     "like": ["멋진 포즈를 취하기"],
-    "dislike": ["가볍게 촐싹대는 것"]
+    "dislike": ["가볍게 촐싹대는 것"],
+    "image": ["/teeniepingImages/heavyping.jpg"]
   },
   {
     "id": "oppoping",
@@ -494,7 +526,8 @@
       }
     ],
     "like": ["피망, 당근 등의 채소"],
-    "dislike": ["달콤한 것"]
+    "dislike": ["달콤한 것"],
+    "image": ["/teeniepingImages/oppoping.jpg"]
   },
   {
     "id": "zipping",
@@ -508,7 +541,8 @@
       }
     ],
     "like": ["제트기 등의 빠른 것"],
-    "dislike": ["거북이, 달팽이 등 느린 것"]
+    "dislike": ["거북이, 달팽이 등 느린 것"],
+    "image": ["/teeniepingImages/zipping.jpg"]
   },
   {
     "id": "bebeping",
@@ -522,7 +556,8 @@
       }
     ],
     "like": ["아기", "자장가"],
-    "dislike": ["어른", "자는 데 깨우는 것"]
+    "dislike": ["어른", "자는 데 깨우는 것"],
+    "image": ["/teeniepingImages/bebeping.jpg"]
   },
   {
     "id": "sleeping",
@@ -540,7 +575,8 @@
       }
     ],
     "like": ["반짝이는 꿈젤리"],
-    "dislike": ["악몽젤리"]
+    "dislike": ["악몽젤리"],
+    "image": ["/teeniepingImages/sleeping.jpg"]
   },
   {
     "id": "stickping",
@@ -558,7 +594,8 @@
       }
     ],
     "like": ["사이좋게 지내는 것"],
-    "dislike": ["서로 싸우는 것"]
+    "dislike": ["서로 싸우는 것"],
+    "image": ["/teeniepingImages/stickping.jpg"]
   },
   {
     "id": "curieping",
@@ -572,7 +609,10 @@
       }
     ],
     "like": ["호기심을 자극하는 모든 것"],
-    "dislike": ["궁금증이 풀리지 않는 답답한 상황 '모야모야모야! 도대체 모야!'"]
+    "dislike": [
+      "궁금증이 풀리지 않는 답답한 상황 '모야모야모야! 도대체 모야!'"
+    ],
+    "image": ["/teeniepingImages/curieping.jpg"]
   },
   {
     "id": "toyping",
@@ -586,7 +626,8 @@
       }
     ],
     "like": ["장난감", "재밌는 것"],
-    "dislike": ["독서", "지루한 것"]
+    "dislike": ["독서", "지루한 것"],
+    "image": ["/teeniepingImages/toyping.jpg"]
   },
   {
     "id": "wannabeping",
@@ -600,7 +641,8 @@
       }
     ],
     "like": ["쌍둥이", "성대모사", "남 따라하기"],
-    "dislike": ["누가 자신을 따라하는 것"]
+    "dislike": ["누가 자신을 따라하는 것"],
+    "image": ["/teeniepingImages/wannabeping.jpg"]
   },
   {
     "id": "floraping",
@@ -614,7 +656,8 @@
       }
     ],
     "like": ["장미", "해바라기", "튤립"],
-    "dislike": ["곤충", "벌레"]
+    "dislike": ["곤충", "벌레"],
+    "image": ["/teeniepingImages/floraping.jpg"]
   },
   {
     "id": "nora-noriping",
@@ -643,7 +686,8 @@
       "초콜릿",
       "노라핑"
     ],
-    "dislike": ["공부", "일찍 자기", "상한 우유"]
+    "dislike": ["공부", "일찍 자기", "상한 우유"],
+    "image": ["/teeniepingImages/nora-noriping.jpg"]
   },
   {
     "id": "sighping",
@@ -657,7 +701,8 @@
       }
     ],
     "like": ["포기", "우울한 생각하기"],
-    "dislike": ["즐거운 생각하기"]
+    "dislike": ["즐거운 생각하기"],
+    "image": ["/teeniepingImages/sighping.jpg"]
   },
   {
     "id": "shushping",
@@ -674,7 +719,8 @@
       }
     ],
     "like": ["공부", "조용한 곳", "바로핑"],
-    "dislike": ["놀기", "시끄러운 곳"]
+    "dislike": ["놀기", "시끄러운 곳"],
+    "image": ["/teeniepingImages/shushping.jpg"]
   },
   {
     "id": "freezeping",
@@ -692,7 +738,8 @@
       }
     ],
     "like": ["겨울", "눈사람", "빙수", "덜덜핑"],
-    "dislike": ["여름", "더운 곳", "난로"]
+    "dislike": ["여름", "더운 곳", "난로"],
+    "image": ["/teeniepingImages/freezeping.jpg"]
   },
   {
     "id": "sparkping",
@@ -709,7 +756,8 @@
       }
     ],
     "like": ["전기", "전구", "천둥", "번개"],
-    "dislike": ["정전", "고장난 전구", "무료함"]
+    "dislike": ["정전", "고장난 전구", "무료함"],
+    "image": ["/teeniepingImages/sparkping.jpg"]
   },
   {
     "id": "aloneping",
@@ -723,7 +771,8 @@
       }
     ],
     "like": ["아무도 없는 곳"],
-    "dislike": ["떠들썩한 분위기"]
+    "dislike": ["떠들썩한 분위기"],
+    "image": ["/teeniepingImages/aloneping.jpg"]
   },
   {
     "id": "egoping",
@@ -740,7 +789,8 @@
       }
     ],
     "like": ["엉망진창", "자유", "강한 것"],
-    "dislike": ["질서", "봉인되는 것", "약한 것"]
+    "dislike": ["질서", "봉인되는 것", "약한 것"],
+    "image": ["/teeniepingImages/egoping.jpg"]
   },
   {
     "id": "giggleping",
@@ -754,7 +804,8 @@
       }
     ],
     "like": ["장난치기", "골탕 먹이기"],
-    "dislike": ["간섭 받는 것", "명령 받는 것"]
+    "dislike": ["간섭 받는 것", "명령 받는 것"],
+    "image": ["/teeniepingImages/giggleping.jpg"]
   },
   {
     "id": "joahping",
@@ -780,7 +831,8 @@
       "이기적인 말과 행동",
       "동물을 괴롭히는 등의 행동",
       "불친절한 행동들"
-    ]
+    ],
+    "image": ["/teeniepingImages/joahping.jpg"]
   },
   {
     "id": "teeheeping",
@@ -794,7 +846,8 @@
       }
     ],
     "like": ["웃음소리", "재미있는 놀이", "뭐든지 첫번째로 하기!"],
-    "dislike": ["잔소리", "인내하는 것", "엄숙한 분위기"]
+    "dislike": ["잔소리", "인내하는 것", "엄숙한 분위기"],
+    "image": ["/teeniepingImages/teeheeping.jpg"]
   },
   {
     "id": "trustping",
@@ -810,7 +863,8 @@
       }
     ],
     "like": ["목욕하기", "비오는 날", "해가 짱짱한 날"],
-    "dislike": ["거짓말", "독서", "바람 부는 날(우산이 뒤집히니까!)"]
+    "dislike": ["거짓말", "독서", "바람 부는 날(우산이 뒤집히니까!)"],
+    "image": ["/teeniepingImages/trustping.jpg"]
   },
   {
     "id": "tickleping",
@@ -826,7 +880,8 @@
       }
     ],
     "like": ["간지럼 태우기"],
-    "dislike": ["누군가가 간지럼을 참는 것"]
+    "dislike": ["누군가가 간지럼을 참는 것"],
+    "image": ["/teeniepingImages/tickleping.jpg"]
   },
   {
     "id": "owwping",
@@ -840,7 +895,8 @@
       }
     ],
     "like": ["안 아픈 것", "우리 집(보석숲!)"],
-    "dislike": ["아픈 것", "병원", "보석숲을 떠나는 것"]
+    "dislike": ["아픈 것", "병원", "보석숲을 떠나는 것"],
+    "image": ["/teeniepingImages/owwping.jpg"]
   },
   {
     "id": "wishping",
@@ -856,7 +912,8 @@
       }
     ],
     "like": ["우유", "친구들", "소원 들어주기"],
-    "dislike": ["거짓말", "남을 다치게 하는 것"]
+    "dislike": ["거짓말", "남을 다치게 하는 것"],
+    "image": ["/teeniepingImages/wishping.jpg"]
   },
   {
     "id": "patping",
@@ -870,7 +927,8 @@
       }
     ],
     "like": ["위로하기", "격려하기", "포기하지 않기"],
-    "dislike": ["좌절", "절망", "포기"]
+    "dislike": ["좌절", "절망", "포기"],
+    "image": ["/teeniepingImages/patping.jpg"]
   },
   {
     "id": "timidping",
@@ -884,7 +942,8 @@
       }
     ],
     "like": ["숨바꼭질", "친구들"],
-    "dislike": ["대범한 행동", "민폐 끼치기"]
+    "dislike": ["대범한 행동", "민폐 끼치기"],
+    "image": ["/teeniepingImages/timidping.jpg"]
   },
   {
     "id": "tidyping",
@@ -900,7 +959,8 @@
       }
     ],
     "like": ["깨끗한 것", "청소", "정리정돈"],
-    "dislike": ["더러운 것", "지저분한 것", "어질러진 것"]
+    "dislike": ["더러운 것", "지저분한 것", "어질러진 것"],
+    "image": ["/teeniepingImages/tidyping.jpg"]
   },
   {
     "id": "yummyping",
@@ -916,7 +976,8 @@
       }
     ],
     "like": ["요리하기", "맛있는 음식"],
-    "dislike": ["맛없는 음식"]
+    "dislike": ["맛없는 음식"],
+    "image": ["/teeniepingImages/yummyping.jpg"]
   },
   {
     "id": "cozyping",
@@ -932,7 +993,8 @@
       }
     ],
     "like": ["뜨개질", "포근한 것"],
-    "dislike": ["딱딱한 것", "차가운 것", "날카로운 것"]
+    "dislike": ["딱딱한 것", "차가운 것", "날카로운 것"],
+    "image": ["/teeniepingImages/cozyping.jpg"]
   },
   {
     "id": "memoping",
@@ -948,7 +1010,8 @@
       }
     ],
     "like": ["메모하기", "관심", "친구들"],
-    "dislike": ["무관심"]
+    "dislike": ["무관심"],
+    "image": ["/teeniepingImages/memoping.jpg"]
   },
   {
     "id": "ladyping",
@@ -964,7 +1027,8 @@
       }
     ],
     "like": ["공주", "우아한 것", "나의 왕국", "나의 백성들"],
-    "dislike": ["촌스러운 것", "못된 마법사"]
+    "dislike": ["촌스러운 것", "못된 마법사"],
+    "image": ["/teeniepingImages/ladyping.jpg"]
   },
   {
     "id": "buddyping",
@@ -980,7 +1044,8 @@
       }
     ],
     "like": ["둘씩 짝지어진 모든 것", "짝수"],
-    "dislike": ["하나인 것", "짝 잃은 양말", "홀수"]
+    "dislike": ["하나인 것", "짝 잃은 양말", "홀수"],
+    "image": ["/teeniepingImages/buddyping.jpg"]
   },
   {
     "id": "giftping",
@@ -996,7 +1061,8 @@
       }
     ],
     "like": ["선물 주기", "착한 일"],
-    "dislike": ["선물을 못 주는 것"]
+    "dislike": ["선물을 못 주는 것"],
+    "image": ["/teeniepingImages/giftping.jpg"]
   },
   {
     "id": "sculptping",
@@ -1010,7 +1076,8 @@
       }
     ],
     "like": ["멋진 조각들", "걸작", "반짝반짝(영감)!"],
-    "dislike": ["볼품 없는 것"]
+    "dislike": ["볼품 없는 것"],
+    "image": ["/teeniepingImages/sculptping.jpg"]
   },
   {
     "id": "balletping",
@@ -1024,7 +1091,8 @@
       }
     ],
     "like": ["발레"],
-    "dislike": ["딱딱한 것"]
+    "dislike": ["딱딱한 것"],
+    "image": ["/teeniepingImages/balletping.jpg"]
   },
   {
     "id": "wonderping",
@@ -1038,7 +1106,8 @@
       }
     ],
     "like": ["히어로", "정의"],
-    "dislike": ["악당", "불의"]
+    "dislike": ["악당", "불의"],
+    "image": ["/teeniepingImages/wonderping.jpg"]
   },
   {
     "id": "maskping",
@@ -1052,11 +1121,12 @@
       }
     ],
     "like": ["??"],
-    "dislike": ["??"]
+    "dislike": ["??"],
+    "image": ["/teeniepingImages/maskping.jpg"]
   },
   {
     "id": "onlyping",
-    "period": [2],
+    "period": [3],
     "name": "다해핑",
     "item": ["비녀"],
     "magic": [
@@ -1068,7 +1138,8 @@
       }
     ],
     "like": ["제니", "제니와 함께하는 시간 전부"],
-    "dislike": ["제니에게 무례한 사람이나 행동"]
+    "dislike": ["제니에게 무례한 사람이나 행동"],
+    "image": ["/teeniepingImages/maskping.jpg"]
   },
   {
     "id": "okeydokeyping",
@@ -1086,7 +1157,8 @@
       }
     ],
     "like": ["낮잠자기", "간식타임", "추운 날", "눈 오는 날"],
-    "dislike": ["다툼", "혼란한 상황"]
+    "dislike": ["다툼", "혼란한 상황"],
+    "image": ["/teeniepingImages/okeydokeyping.jpg"]
   },
   {
     "id": "nanaping",
@@ -1100,7 +1172,8 @@
       }
     ],
     "like": ["따뜻한 곳", "햇빛 쨍한 날", "나!"],
-    "dislike": ["대충하는 것", "의기소침한 분위기"]
+    "dislike": ["대충하는 것", "의기소침한 분위기"],
+    "image": ["/teeniepingImages/nanaping.jpg"]
   },
   {
     "id": "trueping",
@@ -1117,7 +1190,8 @@
       }
     ],
     "like": ["놀고 먹고 자기", "비 오는 날", "구름이 많은 하늘"],
-    "dislike": ["거짓말", "답답하고 불편한 것"]
+    "dislike": ["거짓말", "답답하고 불편한 것"],
+    "image": ["/teeniepingImages/trueping.jpg"]
   },
   {
     "id": "luckyping",
@@ -1134,7 +1208,8 @@
       }
     ],
     "like": ["행운 나눠주기", "산책하기", "빼빼로"],
-    "dislike": ["불운", "좁고 답답한 곳"]
+    "dislike": ["불운", "좁고 답답한 곳"],
+    "image": ["/teeniepingImages/luckyping.jpg"]
   },
   {
     "id": "hurryping",
@@ -1148,7 +1223,8 @@
       }
     ],
     "like": ["재촉하기", "바쁜 것"],
-    "dislike": ["느긋함", "게으름", "빙판"]
+    "dislike": ["느긋함", "게으름", "빙판"],
+    "image": ["/teeniepingImages/hurryping.jpg"]
   },
   {
     "id": "yumyumping",
@@ -1162,7 +1238,8 @@
       }
     ],
     "like": ["맛있는 음식", "같이 먹기"],
-    "dislike": ["배고픔", "음식이 없을 때"]
+    "dislike": ["배고픔", "음식이 없을 때"],
+    "image": ["/teeniepingImages/yumyumping.jpg"]
   },
   {
     "id": "hotping",
@@ -1178,7 +1255,8 @@
       }
     ],
     "like": ["불 끄기", "안전관리", "바베큐 요리", "마시멜로"],
-    "dislike": ["불", "뜨거운 것"]
+    "dislike": ["불", "뜨거운 것"],
+    "image": ["/teeniepingImages/hotping.jpg"]
   },
   {
     "id": "cureping",
@@ -1196,7 +1274,8 @@
       }
     ],
     "like": ["치료", "진료기록카드 모으기"],
-    "dislike": ["'엉터리 의사'라는 말"]
+    "dislike": ["'엉터리 의사'라는 말"],
+    "image": ["/teeniepingImages/cureping.jpg"]
   },
   {
     "id": "nursepings",
@@ -1210,11 +1289,12 @@
       }
     ],
     "like": [],
-    "dislike": []
+    "dislike": [],
+    "image": ["/teeniepingImages/nursepings.jpg"]
   },
   {
     "id": "cheeryping",
-    "period": [4],
+    "period": [3],
     "name": "힘내핑",
     "item": ["치어리딩 수술"],
     "magic": [
@@ -1224,11 +1304,12 @@
       }
     ],
     "like": ["응원", "치어리딩"],
-    "dislike": ["힘든 것", "포기"]
+    "dislike": ["힘든 것", "포기"],
+    "image": ["/teeniepingImages/cheeryping.jpg"]
   },
   {
     "id": "handyping",
-    "period": [4],
+    "period": [3],
     "name": "고쳐핑",
     "item": ["렌치와 공구상자"],
     "magic": [
@@ -1238,11 +1319,12 @@
       }
     ],
     "like": ["고장난 물건 수리하기", "공구들"],
-    "dislike": ["고장난 물건"]
+    "dislike": ["고장난 물건"],
+    "image": ["/teeniepingImages/handyping.jpg"]
   },
   {
     "id": "wizping",
-    "period": [4],
+    "period": [3],
     "name": "아라핑",
     "item": ["플라스크와 마법 지팡이"],
     "magic": [
@@ -1254,11 +1336,12 @@
       }
     ],
     "like": ["실험하기", "발명품들"],
-    "dislike": ["실험을 방해받는 것"]
+    "dislike": ["실험을 방해받는 것"],
+    "image": ["/teeniepingImages/wizping.jpg"]
   },
   {
     "id": "fashionping",
-    "period": [4],
+    "period": [3],
     "name": "패션핑",
     "item": ["줄자와 토르소"],
     "magic": [
@@ -1268,11 +1351,12 @@
       }
     ],
     "like": ["옷 만들기", "코디해주기", "패션쇼"],
-    "dislike": ["촌스러운 패션", "진부한 옷"]
+    "dislike": ["촌스러운 패션", "진부한 옷"],
+    "image": ["/teeniepingImages/fashionping.jpg"]
   },
   {
     "id": "justiceping",
-    "period": [4],
+    "period": [3],
     "name": "꼼딱핑",
     "item": ["호루라기와 스쿠터", "성대모사용 확성기"],
     "magic": [
@@ -1282,11 +1366,12 @@
       }
     ],
     "like": ["순찰하기", "범인잡기", "성대모사"],
-    "dislike": ["나쁜 짓 하는 녀석들"]
+    "dislike": ["나쁜 짓 하는 녀석들"],
+    "image": ["/teeniepingImages/justiceping.jpg"]
   },
   {
     "id": "splashping",
-    "period": [4],
+    "period": [3],
     "name": "퐁당핑",
     "item": ["소라 껍데기"],
     "magic": [
@@ -1305,11 +1390,12 @@
       }
     ],
     "like": ["수영하기", "핑크 돌고래"],
-    "dislike": ["그물", "억압받는 것"]
+    "dislike": ["그물", "억압받는 것"],
+    "image": ["/teeniepingImages/splashping.jpg"]
   },
   {
     "id": "partyping",
-    "period": [4],
+    "period": [3],
     "name": "파티핑",
     "item": ["코끼리피리와 풍선"],
     "magic": [
@@ -1322,11 +1408,12 @@
       }
     ],
     "like": ["화려한 파티", "놀기", "풍선"],
-    "dislike": ["자기만 뺴고 파티하는 것"]
+    "dislike": ["자기만 뺴고 파티하는 것"],
+    "image": ["/teeniepingImages/partyping.jpg"]
   },
   {
     "id": "styleping",
-    "period": [4],
+    "period": [3],
     "name": "꾸며핑",
     "item": ["가위와 빗"],
     "magic": [
@@ -1336,11 +1423,12 @@
       }
     ],
     "like": ["예쁜 머리 해주기", "빗질하기"],
-    "dislike": ["못난 머리 스타일"]
+    "dislike": ["못난 머리 스타일"],
+    "image": ["/teeniepingImages/styleping.jpg"]
   },
   {
     "id": "huffyping",
-    "period": [4],
+    "period": [3],
     "name": "삐짐핑",
     "item": ["막대사탕"],
     "magic": [
@@ -1350,11 +1438,12 @@
       }
     ],
     "like": ["관심받기", "사랑받기"],
-    "dislike": ["자신의 마음을 몰라주는 것"]
+    "dislike": ["자신의 마음을 몰라주는 것"],
+    "image": ["/teeniepingImages/huffyping.jpg"]
   },
   {
     "id": "ariaping",
-    "period": [4],
+    "period": [3],
     "name": "아아핑",
     "item": ["바이올린과 악보"],
     "magic": [
@@ -1367,11 +1456,12 @@
       }
     ],
     "like": ["노래 부르기", "바이올린 연주하기"],
-    "dislike": ["노래를 제대로 부를 수 없는 것"]
+    "dislike": ["노래를 제대로 부를 수 없는 것"],
+    "image": ["/teeniepingImages/ariaping.jpg"]
   },
   {
     "id": "twirlping",
-    "period": [4],
+    "period": [3],
     "name": "빙글핑",
     "item": ["팽이"],
     "magic": [
@@ -1384,7 +1474,8 @@
       }
     ],
     "like": ["피겨 스케이팅", "빙판"],
-    "dislike": ["피겨 스케이팅에 진지하지 않은 것", "더운 것"]
+    "dislike": ["피겨 스케이팅에 진지하지 않은 것", "더운 것"],
+    "image": ["/teeniepingImages/twirlping.jpg"]
   },
   {
     "id": "shashaping",
@@ -1400,7 +1491,8 @@
       }
     ],
     "like": ["음식 만들어서 나눠주기", "이야기 들어주기", "밝은 분위기"],
-    "dislike": ["좌절", "절망", "포기", "어두운 분위기"]
+    "dislike": ["좌절", "절망", "포기", "어두운 분위기"],
+    "image": ["/teeniepingImages/shashaping.jpg"]
   },
   {
     "id": "fluffyping",
@@ -1422,7 +1514,8 @@
       "멍하게 생각에 잠기기",
       "초콜릿"
     ],
-    "dislike": ["맛없는 음식", "빨리빨리 하는 것", "거짓말"]
+    "dislike": ["맛없는 음식", "빨리빨리 하는 것", "거짓말"],
+    "image": ["/teeniepingImages/fluffyping.jpg"]
   },
   {
     "id": "jellyping",
@@ -1438,7 +1531,8 @@
       }
     ],
     "like": ["놀이", "운동", "새로운 것"],
-    "dislike": ["지루한 분위기"]
+    "dislike": ["지루한 분위기"],
+    "image": ["/teeniepingImages/jellyping.jpg"]
   },
   {
     "id": "tangyping",
@@ -1452,7 +1546,8 @@
       }
     ],
     "like": ["새콤한 것", "쪽지 쓰기", "케이크 만들기"],
-    "dislike": ["새콤함을 싫어하는 사람"]
+    "dislike": ["새콤함을 싫어하는 사람"],
+    "image": ["/teeniepingImages/tangyping.jpg"]
   },
   {
     "id": "sweetping",
@@ -1468,7 +1563,8 @@
       }
     ],
     "like": ["달콤한 것", "쪽지 쓰기", "케이크 만들기"],
-    "dislike": ["달콤함을 싫어하는 사람"]
+    "dislike": ["달콤함을 싫어하는 사람"],
+    "image": ["/teeniepingImages/sweetping.jpg"]
   },
   {
     "id": "candyping",
@@ -1482,7 +1578,8 @@
       }
     ],
     "like": ["칭찬하기", "달콤한 말"],
-    "dislike": ["싸움", "상처주는 말", "부정적인 말"]
+    "dislike": ["싸움", "상처주는 말", "부정적인 말"],
+    "image": ["/teeniepingImages/candyping.jpg"]
   },
   {
     "id": "meringueping",
@@ -1500,7 +1597,8 @@
       }
     ],
     "like": ["머랭 장식하기", "화려하고 예쁜 것"],
-    "dislike": ["수수한 것", "어둡고 칙칙한 것"]
+    "dislike": ["수수한 것", "어둡고 칙칙한 것"],
+    "image": ["/teeniepingImages/meringueping.jpg"]
   },
   {
     "id": "sandping",
@@ -1514,7 +1612,8 @@
       }
     ],
     "like": ["크림으로 샌드하기", "빈틈 찾아 채우기"],
-    "dislike": ["샌드쿠키를 반으로 갈라 먹는 것"]
+    "dislike": ["샌드쿠키를 반으로 갈라 먹는 것"],
+    "image": ["/teeniepingImages/sandping.jpg"]
   },
   {
     "id": "donutping",
@@ -1528,7 +1627,8 @@
       }
     ],
     "like": ["로미", "예쁨 받기", "칭찬", "그림 그리기", "구멍 뚫기"],
-    "dislike": ["어린애 취급받는 것", "무시당하는 것"]
+    "dislike": ["어린애 취급받는 것", "무시당하는 것"],
+    "image": ["/teeniepingImages/donutping.jpg"]
   },
   {
     "id": "waffleping",
@@ -1542,7 +1642,8 @@
       }
     ],
     "like": ["납작하게 만들기", "장난치기"],
-    "dislike": ["참기", "가만히 멈춰있기"]
+    "dislike": ["참기", "가만히 멈춰있기"],
+    "image": ["/teeniepingImages/waffleping.jpg"]
   },
   {
     "id": "lolliping",
@@ -1556,12 +1657,13 @@
       }
     ],
     "like": ["빙빙 돌아가는 것", "회전시키기"],
-    "dislike": ["친구가 슬픈 것", "정지된 사물"]
+    "dislike": ["친구가 슬픈 것", "정지된 사물"],
+    "image": ["/teeniepingImages/lolliping.jpg"]
   },
   {
     "id": "macaping",
     "period": [4],
-    "name": "롤리핑",
+    "name": "마카핑",
     "item": ["짤주머니"],
     "magic": [
       {
@@ -1570,7 +1672,8 @@
       }
     ],
     "like": ["알록달록한 것", "색깔 바꾸기"],
-    "dislike": ["단조로움", "어둡고 칙칙한 색"]
+    "dislike": ["단조로움", "어둡고 칙칙한 색"],
+    "image": ["/teeniepingImages/macaping.jpg"]
   },
   {
     "id": "pancakeping",
@@ -1584,7 +1687,8 @@
       }
     ],
     "like": ["쌓기", "남을 돕는 것", "노력하는 사람"],
-    "dislike": ["마구잡이로 흩어져 있는 것"]
+    "dislike": ["마구잡이로 흩어져 있는 것"],
+    "image": ["/teeniepingImages/pancakeping.jpg"]
   },
   {
     "id": "cup-muffping",
@@ -1607,7 +1711,8 @@
       "쪽쪽이를 빼앗기는 것",
       "배고픈 것",
       "꾸중을 듣는 것"
-    ]
+    ],
+    "image": ["/teeniepingImages/cup-muffping.jpg"]
   },
   {
     "id": "yogurtping",
@@ -1628,7 +1733,8 @@
       "요거트 만들어 나눠주기",
       "요들 부르기"
     ],
-    "dislike": ["잠을 안 자는 사람", "잠의 중요성을 모르는 사람"]
+    "dislike": ["잠을 안 자는 사람", "잠의 중요성을 모르는 사람"],
+    "image": ["/teeniepingImages/yogurtping.jpg"]
   },
   {
     "id": "iceflakeping",
@@ -1644,7 +1750,8 @@
       }
     ],
     "like": ["눈썰매 타기", "친구 사귀기"],
-    "dislike": ["돌발상황", "친구를 아프게 하는 것", "조절이 서툰 마법능력"]
+    "dislike": ["돌발상황", "친구를 아프게 하는 것", "조절이 서툰 마법능력"],
+    "image": ["/teeniepingImages/iceflakeping.jpg"]
   },
   {
     "id": "puddingping",
@@ -1661,7 +1768,8 @@
       }
     ],
     "like": ["신나는 음악", "춤추기", "푸딩 만들어 나눠주기"],
-    "dislike": ["비웃음 받는 것"]
+    "dislike": ["비웃음 받는 것"],
+    "image": ["/teeniepingImages/puddingping.jpg"]
   },
   {
     "id": "mallowping",
@@ -1675,7 +1783,8 @@
       }
     ],
     "like": ["폭신한 것", "상냥한 사람"],
-    "dislike": ["딱딱한 것", "높은 곳"]
+    "dislike": ["딱딱한 것", "높은 곳"],
+    "image": ["/teeniepingImages/mallowping.jpg"]
   },
   {
     "id": "chocoping",
@@ -1689,7 +1798,8 @@
       }
     ],
     "like": ["사이좋은 친구들", "다정한 사람"],
-    "dislike": ["싸우는 친구들", "미워하는 것"]
+    "dislike": ["싸우는 친구들", "미워하는 것"],
+    "image": ["/teeniepingImages/chocoping.jpg"]
   },
   {
     "id": "puffping",
@@ -1717,6 +1827,7 @@
       "자기 것을 빼앗기는 것",
       "자기만 빼고 친하게 지내는 친구들",
       "자신의 속마음을 들키는 것"
-    ]
+    ],
+    "image": ["/teeniepingImages/puffping.jpg"]
   }
 ]

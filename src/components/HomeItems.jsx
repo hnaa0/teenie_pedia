@@ -78,10 +78,7 @@ function Item({ itemData, toggleLike, likes }) {
     <Link to={`/detail/${itemData.id}`}>
       <div className="card card-compact shadow-lg transition ease-in-out bg-white dark:bg-zinc-100">
         <figure>
-          <img
-            src="https://images.pexels.com/photos/2524121/pexels-photo-2524121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-          />
+          <img src={itemData.image[0]} alt="" />
         </figure>
         <div className="card-body">
           <h2 className={`text-zinc-800 text-lg lg:text-xl font-["Ssurround"]`}>

@@ -35,7 +35,7 @@ export default function Header() {
   return (
     <nav className="h-14 md:h-16 min-h-14 sticky z-10 top-0 navbar bg-white/[0.85] dark:bg-zinc-800/[0.85] lg:max-w-7xl lg:mx-auto lg:my-0">
       <div className="flex-1">
-        <Link to="/">
+        <Link to="/" aria-label="메인">
           <div className="flex relative w-32 btn btn-ghost">
             <div className="left-4 md:left-2.5 top-2.5 md:top-1 w-4 md:w-5 h-4 md:h-5 bg-pink-100 dark:bg-pink-300 rounded-md rotate-12 border-blue-100 absolute"></div>
             <h1
@@ -47,7 +47,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex-none">
-        <Link to="/random-draw">
+        <Link to="/random-draw" aria-label="랜덤뽑기">
           <div className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center hover:cursor-pointer mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ export default function Header() {
             </svg>
           </div>
         </Link>
-        <Link to="/likes">
+        <Link to="/likes" aria-label="마음함">
           <div className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center hover:cursor-pointer mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,10 +83,14 @@ export default function Header() {
             </svg>
           </div>
         </Link>
-        <div className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center">
+        <div
+          aria-label="테마변경"
+          className="flex w-10 md:w-12 h-10 md:h-12 items-center justify-center"
+        >
           <label className="swap swap-rotate items-center">
             <input className="js-theme" type="checkbox" onClick={themeChange} />
             <svg
+              aria-label="라이트모드"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -101,6 +105,7 @@ export default function Header() {
               />
             </svg>
             <svg
+              aria-label="다크모드"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"

@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import likeSlice from "../store/likeSlice";
 import { useRef } from "react";
 import DomToImage from "dom-to-image";
+import Slider from "react-slick";
 
 export default function DetailCard({ data }) {
   const likes = useSelector((state) => state.likeStore.items);
@@ -31,6 +32,7 @@ export default function DetailCard({ data }) {
     data && (
       <div className="flex flex-col">
         <button
+          aria-label="정보카드 다운로드 버튼"
           onClick={onDownloadBtnClick}
           className="mr-6 ml-auto rounded-full w-fit border border-solid border-fuchsia-300 dark:border-fuchsia-100 bg-fuchsia-50 dark:bg-inherit p-2"
         >
@@ -51,15 +53,20 @@ export default function DetailCard({ data }) {
         </button>
         <div className="mt-6 lg:mt-16 w-full px-4 lg:px-8">
           <article
+            aria-label="정보카드"
             ref={cardRef}
             className="w-full bg-gradient-to-b from-blue-50 dark:from-blue-100 to-pink-50 dark:to-pink-100 shadow-xl p-8 lg:flex rounded-3xl"
           >
             <figure className="mb-4 lg:mb-0 w-full h-full lg:w-[60%] bg-white">
-              <img
-                className="w-full h-full md:h-144 lg:h-full object-cover"
-                src="https://images.pexels.com/photos/2524121/pexels-photo-2524121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Album"
-              />
+              {data.image.length == 1 ? (
+                <img
+                  className="w-full h-full md:h-144 lg:h-full object-cover"
+                  src={data.image[0]}
+                  alt={`${data.name} 이미지`}
+                />
+              ) : (
+                <DetailCarousel images={data.image} />
+              )}
             </figure>
             <div className="lg:flex lg:flex-col lg:justify-between lg:w-[40%] p-2 lg:p-0 lg:pl-8">
               <div>
@@ -205,5 +212,40 @@ export default function DetailCard({ data }) {
         </div>
       </div>
     )
+  );
+}
+
+function DetailCarousel({ images }) {
+  const sliderRef = useRef(null);
+
+  const settings = {
+    dots: true,
+    arrows: false,
+    autoplay: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendDots: (dots) => (
+      <div
+        style={{
+          width: "100%",
+          position: "absolute",
+          bottom: "10px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <ul> {dots} </ul>
+      </div>
+    ),
+  };
+
+  return (
+    <Slider {...settings} ref={sliderRef}>
+      {images.map((element) => (
+        <img src={element} key={element} />
+      ))}
+    </Slider>
   );
 }
