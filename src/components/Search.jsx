@@ -29,11 +29,11 @@ export default function Search() {
           onChange={onInputChange}
         />
         {searchResult.length !== 0 && (
-          <div className="absolute top-16 md:top-[4.5rem] left-1/2 -translate-x-1/2 z-10 w-full md:w-124 lg:w-124 h-fit py-2 px-4 bg-fuchsia-50 border border-solid border-fuchsia-200 rounded-[2rem]">
+          <div className="absolute top-16 md:top-[4.5rem] left-1/2 -translate-x-1/2 z-10 w-full md:w-124 lg:w-124 h-fit bg-fuchsia-50 border border-solid border-fuchsia-200 rounded-[2rem] overflow-hidden">
             {searchResult.map((item, index) => (
               <div key={`searchResult_${index}`}>
                 <Link to={`/detail/${item.id}`}>
-                  <div className="py-3 px-5 text-sm text-zinc-600 hover:text-zinc-800 hover:bg-black/[0.2]">
+                  <div className="py-3 px-5 text-sm text-zinc-500 hover:text-zinc-900 hover:bg-purple-100/[0.5]">
                     {item.name}
                   </div>
                 </Link>
