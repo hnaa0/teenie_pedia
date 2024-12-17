@@ -55,9 +55,9 @@ export default function DetailCard({ data }) {
           <article
             aria-label="정보카드"
             ref={cardRef}
-            className="w-full bg-gradient-to-b from-blue-50 dark:from-blue-100 to-pink-50 dark:to-pink-100 shadow-xl p-8 lg:flex rounded-3xl"
+            className="w-full bg-gradient-to-b from-blue-50 dark:from-blue-100 to-pink-50 dark:to-pink-100 shadow-xl max-sm:p-6 p-8 lg:flex rounded-3xl"
           >
-            <figure className="mb-4 lg:mb-0 w-full h-full lg:w-[60%] bg-white">
+            <figure className="w-full h-full lg:w-[60%] bg-white">
               {data.image.length == 1 ? (
                 <img
                   className="w-full h-full md:h-144 lg:h-full object-cover"
@@ -70,23 +70,23 @@ export default function DetailCard({ data }) {
             </figure>
             <div className="lg:flex lg:flex-col lg:justify-between lg:w-[40%] p-2 lg:p-0 lg:pl-8">
               <div>
-                <div className="mt-4 lg:mt-10">
+                <div className="max-sm:mt-2 mt-8 lg:mt-10">
                   <h2
-                    className={`text-zinc-700 text-2xl lg:text-3xl font-["Ssurround"]`}
+                    className={`text-zinc-700 max-sm:text-xl text-2xl lg:text-3xl font-["Ssurround"]`}
                   >
                     {data.name}
                   </h2>
-                  <table className="table table-auto mt-2 lg:mt-4 border-spacing-y-5 lg:border-spacing-y-8 border-separate">
+                  <table className="table table-fixed mt-2 lg:mt-4 border-spacing-y-5 lg:border-spacing-y-8 border-separate">
                     <tbody>
                       <tr>
-                        <th className="min-w-20 p-0 align-top">
+                        <th className="w-16 lg:w-[5rem] p-0 align-top">
                           <div className="flex items-center h-[28px] lg:h-[30px] w-fit text-zinc-400 py-1 px-2 mr-3 bg-violet-200 rounded-full">
-                            <span className="text-sm lg:text-base text-white">
+                            <span className="max-sm:text-xs text-sm lg:text-base text-white">
                               아이템
                             </span>
                           </div>
                         </th>
-                        <td className="w-full text-start text-base lg:text-lg text-zinc-600 p-0">
+                        <td className="w-full text-start text-base max-sm:text-sm lg:text-lg text-zinc-600 p-0">
                           {data.item.map((element, index) => (
                             <span key={`item_${index}`}>
                               {element}
@@ -96,14 +96,14 @@ export default function DetailCard({ data }) {
                         </td>
                       </tr>
                       <tr>
-                        <th className="min-w-20 p-0 align-top">
+                        <th className="p-0 align-top">
                           <div className="flex items-center h-[28px] lg:h-[30px] w-fit text-zinc-400 py-1 px-2 mr-3 bg-violet-200 rounded-full">
-                            <span className="text-sm lg:text-base text-white">
+                            <span className="max-sm:text-xs text-sm lg:text-base text-white">
                               마법
                             </span>
                           </div>
                         </th>
-                        <td className="w-full text-start text-base lg:text-lg text-zinc-600 p-0">
+                        <td className="w-full text-start text-base max-sm:text-sm lg:text-lg text-zinc-600 p-0">
                           {data.magic.map((element, index) => (
                             <div
                               key={`magic_${index}`}
@@ -131,7 +131,7 @@ export default function DetailCard({ data }) {
                                     />
                                   </svg>
                                   {element.type && (
-                                    <span className="bg-purple-100 dark:bg-purple-300 dark:text-white px-1 mr-2">
+                                    <span className="bg-purple-100 dark:bg-purple-300 dark:text-white px-1 mr-2 max-sm:max-w-16 break-words">
                                       {element.type}
                                     </span>
                                   )}
@@ -143,14 +143,14 @@ export default function DetailCard({ data }) {
                         </td>
                       </tr>
                       <tr>
-                        <th className="min-w-20 p-0 align-top">
+                        <th className="p-0 align-top">
                           <div className="flex items-center h-[28px] lg:h-[30px] w-fit text-zinc-400 py-1 px-2 mr-3 bg-violet-200 rounded-full">
-                            <span className="text-sm lg:text-base text-white">
+                            <span className="max-sm:text-xs text-sm lg:text-base text-white">
                               좋아요
                             </span>
                           </div>
                         </th>
-                        <td className="w-full text-start text-base lg:text-lg text-zinc-600 p-0">
+                        <td className="w-full text-start text-base max-sm:text-sm lg:text-lg text-zinc-600 p-0">
                           {data.like.map((element, index) => (
                             <span key={`item_${index}`}>
                               {element}
@@ -160,14 +160,14 @@ export default function DetailCard({ data }) {
                         </td>
                       </tr>
                       <tr>
-                        <th className="min-w-20 p-0 align-top">
+                        <th className="p-0 align-top">
                           <div className="flex items-center h-[28px] lg:h-[30px] w-fit text-zinc-400 py-1 px-2 mr-3 bg-violet-200 rounded-full">
-                            <span className="text-sm lg:text-base text-white">
+                            <span className="max-sm:text-xs text-sm lg:text-base text-white">
                               싫어요
                             </span>
                           </div>
                         </th>
-                        <td className="w-full text-start text-base lg:text-lg text-zinc-600 p-0">
+                        <td className="w-full text-start text-base max-sm:text-sm lg:text-lg text-zinc-600 p-0">
                           {data.dislike.map((element, index) => (
                             <span key={`item_${index}`}>
                               {element}
