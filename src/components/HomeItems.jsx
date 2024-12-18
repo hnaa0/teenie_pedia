@@ -46,7 +46,7 @@ export default function ItemGrid() {
             <button
               key={`${item.number}_${item.title}`}
               onClick={() => toggleFilter(item.number)}
-              className={`transition 0.2s ease-in-out shadow-md py-3 md:py-4 rounded-full font-["Ssurround"] text-sm md:text-lg ${
+              className={`transition 0.2s ease-in-out shadow-md px-4 py-3 md:py-4 rounded-full font-["Ssurround"] text-sm md:text-base lg:text-lg ${
                 filter.includes(item.number) ? "bg-purple-100" : "bg-zinc-50"
               } ${
                 filter.includes(item.number) ? "text-zinc-700" : "text-zinc-400"
